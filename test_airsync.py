@@ -81,10 +81,9 @@ def run_tests():
         driver_sender = create_driver()
         driver_receiver = create_driver()
 
-        url = "http://127.0.0.1:8555"
-        print(f"\n[Step 2] Loading AirSync app on {url}...")
-        driver_sender.get(url + "/#airdrop")
-        driver_receiver.get(url + "/#airdrop")
+        print(f"\n[Step 2] Loading AirSync app on http://127.0.0.1:8000...")
+        driver_sender.get("http://127.0.0.1:8000/#airdrop")
+        driver_receiver.get("http://127.0.0.1:8000/#airdrop")
         
         wait_s = WebDriverWait(driver_sender, 15)
         wait_r = WebDriverWait(driver_receiver, 15)

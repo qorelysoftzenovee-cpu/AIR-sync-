@@ -52,7 +52,7 @@
         <!-- Logo -->
         <div class="flex items-center space-x-3">
           <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center shadow-lg shadow-indigo-500/20">
-            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg style="width: 20px; height: 20px;" class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071a9 9 0 0112.138 0M1 7.071a14 14 0 0119.8 0"></path>
             </svg>
           </div>
@@ -63,7 +63,7 @@
 
         <!-- Privacy Badge (Header / Center-ish) -->
         <div class="hidden lg:flex items-center space-x-2 px-3 py-1.5 rounded-full bg-emerald-500/10 dark:bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-400 text-xs font-semibold tracking-wide">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg style="width: 14px; height: 14px;" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
           </svg>
           <span>100% Private — Files & Audio Never Leave Your Device</span>
@@ -74,13 +74,13 @@
           <!-- Navigation Tabs -->
           <nav class="flex space-x-1 p-1 bg-slate-200/50 dark:bg-slate-900/60 rounded-xl border border-slate-200/30 dark:border-slate-800/50">
             <button id="tab-airdrop" class="px-3.5 py-1.5 text-xs sm:text-sm font-medium rounded-lg tab-transition flex items-center space-x-1.5 border border-transparent">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg style="width: 16px; height: 16px;" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path>
               </svg>
               <span>P2P AirDrop</span>
             </button>
             <button id="tab-transcriber" class="px-3.5 py-1.5 text-xs sm:text-sm font-medium rounded-lg tab-transition flex items-center space-x-1.5 border border-transparent">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg style="width: 16px; height: 16px;" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path>
               </svg>
               <span>Transcriber</span>
@@ -89,7 +89,7 @@
 
           <!-- Share App Action Button -->
           <button id="share-btn" class="p-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white transition-all shadow-md shadow-indigo-600/15 flex items-center justify-center space-x-1.5" aria-label="Share Website">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg style="width: 16px; height: 16px;" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8.684 10.742l5.056-2.528L13.74 8.21l-5.056 2.528M8.684 13.258l5.056 2.528m-5.056-2.528L13.74 15.79l-5.056-2.528M14 6.5a2.5 2.5 0 115 0 2.5 2.5 0 01-5 0zm-8 6a2.5 2.5 0 115 0 2.5 2.5 0 01-5 0zm8 6a2.5 2.5 0 115 0 2.5 2.5 0 01-5 0z"></path>
             </svg>
             <span class="hidden sm:inline text-xs font-bold">Share Site</span>
@@ -97,10 +97,10 @@
 
           <!-- Theme Toggle -->
           <button id="theme-toggle" class="p-2.5 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/50 dark:border-slate-800/80 hover:bg-slate-50 dark:hover:bg-slate-800/60 text-slate-700 dark:text-slate-300 transition-colors shadow-sm" aria-label="Toggle Theme">
-            <svg id="theme-icon-moon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg style="width: 20px; height: 20px;" id="theme-icon-moon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
             </svg>
-            <svg id="theme-icon-sun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg style="width: 20px; height: 20px;" id="theme-icon-sun" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"></path>
             </svg>
           </button>
@@ -112,7 +112,7 @@
     <!-- Mobile-Only Privacy Alert (Sticky at top if screen is small) -->
     <div class="lg:hidden w-full px-4 pt-4 relative z-20">
       <div class="flex items-center justify-center space-x-2 px-3 py-2 rounded-xl bg-emerald-500/10 dark:bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-400 text-xs font-semibold tracking-wide text-center">
-        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg style="width: 16px; height: 16px;" class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
         </svg>
         <span>100% Private — Files & Audio Never Leave Your Device</span>
@@ -204,7 +204,7 @@
             <div id="file-dropzone" class="border-2 border-dashed border-slate-300 dark:border-slate-800 rounded-xl flex-grow flex flex-col items-center justify-center p-8 hover:border-indigo-500/50 hover:bg-indigo-500/[0.02] transition-all cursor-pointer group opacity-50 pointer-events-none">
               <input id="file-input" type="file" class="hidden" />
               <div class="w-16 h-16 rounded-full bg-slate-100 dark:bg-slate-900 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                <svg class="w-8 h-8 text-slate-500 dark:text-slate-400 group-hover:text-indigo-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <svg style="width: 32px; height: 32px;" class="w-8 h-8 text-slate-500 dark:text-slate-400 group-hover:text-indigo-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
                 </svg>
               </div>
@@ -296,7 +296,7 @@
                   <button id="record-audio-btn" class="opacity-50 pointer-events-none w-full p-3.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-indigo-500/50 dark:hover:border-indigo-400/50 flex items-center space-x-3 transition-all text-left">
                     <div class="p-2 rounded-lg bg-indigo-500/10 text-indigo-500 flex items-center">
                       <span id="record-indicator" class="hidden w-2.5 h-2.5 rounded-full bg-rose-500 mr-1"></span>
-                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <svg style="width: 20px; height: 20px;" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path>
                       </svg>
                     </div>
@@ -309,7 +309,7 @@
                   <button id="audio-dropzone" class="opacity-50 pointer-events-none w-full p-3.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800/80 hover:border-indigo-500/50 dark:hover:border-indigo-400/50 flex items-center space-x-3 transition-all text-left cursor-pointer">
                     <input id="audio-file-input" type="file" accept="audio/*,video/*" class="hidden" />
                     <div class="p-2 rounded-lg bg-emerald-500/10 text-emerald-500">
-                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <svg style="width: 20px; height: 20px;" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path>
                       </svg>
                     </div>
@@ -367,17 +367,17 @@
                 <!-- Action Controls (Initially hidden or shown as state) -->
                 <div class="flex space-x-2">
                   <button id="copy-transcript-btn" class="p-1.5 rounded-lg text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all" title="Copy text">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg style="width: 16px; height: 16px;" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path>
                     </svg>
                   </button>
                   <button id="download-txt-btn" class="p-1.5 rounded-lg text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all" title="Download Text">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg style="width: 16px; height: 16px;" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                     </svg>
                   </button>
                   <button id="download-srt-btn" class="p-1.5 rounded-lg text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all" title="Download SRT Subtitles">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg style="width: 16px; height: 16px;" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                     </svg>
                   </button>
@@ -386,7 +386,7 @@
 
               <!-- Placeholder (Initially Visible) -->
               <div id="transcription-result-placeholder" class="flex-grow flex flex-col items-center justify-center text-center p-6 text-slate-400 dark:text-slate-500 border border-slate-200/20 dark:border-slate-800/40 rounded-xl bg-slate-500/[0.01] my-auto">
-                <svg class="w-12 h-12 text-slate-300 dark:text-slate-800 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <svg style="width: 48px; height: 48px;" class="w-12 h-12 text-slate-300 dark:text-slate-800 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                 </svg>
                 <p class="text-sm font-semibold">No transcript generated yet</p>
@@ -456,7 +456,7 @@
     <div class="bg-white dark:bg-slate-900 rounded-2xl max-w-sm w-full p-6 border border-slate-200/80 dark:border-slate-800/80 shadow-2xl space-y-6 transform scale-95 transition-all">
       <div class="text-center space-y-3">
         <div class="w-12 h-12 rounded-full bg-indigo-500/10 text-indigo-500 mx-auto flex items-center justify-center">
-          <svg class="w-6 h-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg style="width: 24px; height: 24px;" class="w-6 h-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
           </svg>
         </div>
@@ -481,7 +481,7 @@
     <div class="bg-white dark:bg-slate-900 rounded-2xl max-w-sm w-full p-6 border border-slate-200/80 dark:border-slate-800/80 shadow-2xl space-y-6 transform scale-95 transition-all text-center">
       <div class="space-y-3">
         <div class="w-12 h-12 rounded-full bg-indigo-500/10 text-indigo-550 mx-auto flex items-center justify-center">
-          <svg class="w-6 h-6 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg style="width: 24px; height: 24px;" class="w-6 h-6 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8.684 10.742l5.056-2.528L13.74 8.21l-5.056 2.528M8.684 13.258l5.056 2.528m-5.056-2.528L13.74 15.79l-5.056-2.528M14 6.5a2.5 2.5 0 115 0 2.5 2.5 0 01-5 0zm-8 6a2.5 2.5 0 115 0 2.5 2.5 0 01-5 0zm8 6a2.5 2.5 0 115 0 2.5 2.5 0 01-5 0z"></path>
           </svg>
         </div>

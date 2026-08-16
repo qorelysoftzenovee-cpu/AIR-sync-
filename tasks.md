@@ -39,4 +39,9 @@ This file tracks the implementation progress of **AirSync Suite** phases.
 - [x] Refactor grid for 3-column desktop layout
 - [x] Implement sticky right-hand sidebar ad container (`div#halal-ad-sidebar`)
 - [x] Implement bottom ad container (`div#halal-ad-bottom`)
-- [x] Apply fixed min-heights for CLS prevention and responsive hiding classes
+## Phase 7: Vite Build Pipeline & SVG Fixes
+- [x] Initialize Node.js and install Vite + Tailwind CSS
+- [x] Move unbundled static assets (`_headers`, Web Worker, Models) to `public/` directory
+- [x] Add explicit inline dimension styles to all `<svg>` elements in `index.html`
+- [x] Update CSS imports and remove Tailwind CDN script from `index.html`
+- [x] Verify `npm run build` generates a clean `dist/` directory
